@@ -1,0 +1,1 @@
+cmd_/home/phucl/Linux-Device-Driver/C7_I2C/pcf8574.ko := ld -r  -m elf_x86_64 -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/phucl/Linux-Device-Driver/C7_I2C/pcf8574.ko /home/phucl/Linux-Device-Driver/C7_I2C/pcf8574.o /home/phucl/Linux-Device-Driver/C7_I2C/pcf8574.mod.o;  true

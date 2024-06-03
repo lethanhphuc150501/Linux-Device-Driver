@@ -1,0 +1,1 @@
+cmd_/home/phucl/Linux-Device-Driver/C4_CharacterDeviceDrivers/Module.symvers := sed 's/\.ko$$/\.o/' /home/phucl/Linux-Device-Driver/C4_CharacterDeviceDrivers/modules.order | scripts/mod/modpost -m -a  -o /home/phucl/Linux-Device-Driver/C4_CharacterDeviceDrivers/Module.symvers -e -i Module.symvers   -T -

@@ -1,0 +1,1 @@
+cmd_/home/phucl/Linux-Device-Driver/C7_I2C/Module.symvers := sed 's/\.ko$$/\.o/' /home/phucl/Linux-Device-Driver/C7_I2C/modules.order | scripts/mod/modpost -m -a  -o /home/phucl/Linux-Device-Driver/C7_I2C/Module.symvers -e -i Module.symvers   -T -
